@@ -7,7 +7,7 @@ char *externalpipe_sigusr1[] = {"/bin/sh", "-c", "externalpipe_buffer.sh st_stri
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 /*static char *font = "monospace:style=Bold:pixelsize=16:antialias=true:autohint=true";*/
-static char *font = "monospace:style=Bold:size:pixelsize=18:antialias=true:autohint=true";
+static char *font = "JetBrainsMono Nerd Font:style=Bold:pixelsize=18:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
