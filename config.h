@@ -100,32 +100,32 @@ float alpha = 0.9;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
     /* 8 normal colors */
-    "black",
-    "red3",
-    "green3",
-    "yellow3",
-    "blue2",
-    "magenta3",
-    "cyan3",
-    "gray90",
+    "#000000", /* 0: black (Nord1 - Polar Night) */
+    "#bf616a", /* 1: red (Nord11 - Aurora) */
+    "#a3be8c", /* 2: green (Nord14 - Aurora) */
+    "#ebcb8b", /* 3: yellow (Nord13 - Aurora) */
+    "#81a1c1", /* 4: blue (Nord9 - Frost) */
+    "#b48ead", /* 5: magenta (Nord15 - Aurora) */
+    "#88c0d0", /* 6: cyan (Nord8 - Frost) */
+    "#e5e9f0", /* 7: white (Nord4 - Snow Storm) */
 
     /* 8 bright colors */
-    "gray50",
-    "red",
-    "green",
-    "yellow",
-    "#5c5cff",
-    "magenta",
-    "cyan",
-    "white",
+    "#4c566a", /* 8: bright black (Nord3 - Polar Night) */
+    "#bf616a", /* 9: bright red (Nord11) */
+    "#a3be8c", /* 10: bright green (Nord14) */
+    "#ebcb8b", /* 11: bright yellow (Nord13) */
+    "#81a1c1", /* 12: bright blue (Nord9) */
+    "#b48ead", /* 13: bright magenta (Nord15) */
+    "#8fbcbb", /* 14: bright cyan (Nord7 - Frost) */
+    "#eceff4", /* 15: bright white (Nord5 - Snow Storm) */
 
     [255] = 0,
 
     /* more colors can be added after 255 to use with DefaultXX */
-    "#cccccc",
-    "#555555",
-    "gray90", /* default foreground colour */
-    "black",  /* default background colour */
+    "#88c0d0", /* 256: cursor (Nord8 - Cyan escarcha) */
+    "#4c566a", /* 257: reverse cursor (Nord2 - Polar Night oscuro) */
+    "#d8dee9", /* 258: default foreground colour (Nord6 - Blanco suave) */
+    "#000000", /* 259: default background colour (Nord0 - El fondo ártico clásico) */
 };
 
 /*
